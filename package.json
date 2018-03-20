@@ -1,0 +1,14 @@
+{
+  "name": "fvslstats",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.5",
+    "request": "^2.85.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
