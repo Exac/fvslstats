@@ -57,6 +57,6 @@ app.get('/', function (req, res) {
 
 app.listen('8081');
 
-console.log('FVSLSTATS running on http://localhost:8081/stats');
+console.log('FVSLSTATS running on http://localhost:8081/');
 
 exports = module.exports = app;
