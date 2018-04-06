@@ -3,7 +3,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var app = express();
 
-app.get('/stats', function (req, res) {
+app.get('/', function (req, res) {
     
     url = 'http://www.fraservalleysoccer.com/goals.php';
     var json = {"scorers": []};
